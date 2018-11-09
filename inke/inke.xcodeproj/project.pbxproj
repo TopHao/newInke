@@ -11,8 +11,6 @@
 		CD16242221904E8600E80B96 /* SXTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16242121904E8600E80B96 /* SXTBaseViewController.m */; };
 		CD16242621904EDC00E80B96 /* SXTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16242421904EDC00E80B96 /* SXTMainViewController.m */; };
 		CD16242721904EDC00E80B96 /* SXTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD16242521904EDC00E80B96 /* SXTMainViewController.xib */; };
-		CD16242B21904EF000E80B96 /* SXTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16242921904EF000E80B96 /* SXTMeViewController.m */; };
-		CD16242C21904EF000E80B96 /* SXTMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD16242A21904EF000E80B96 /* SXTMeViewController.xib */; };
 		CD16242F21904FDE00E80B96 /* SXTBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16242E21904FDE00E80B96 /* SXTBaseNavViewController.m */; };
 		CD1624332190A00600E80B96 /* SXTLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1624312190A00600E80B96 /* SXTLaunchViewController.m */; };
 		CD1624342190A00600E80B96 /* SXTLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1624322190A00600E80B96 /* SXTLaunchViewController.xib */; };
@@ -54,6 +52,12 @@
 		CD40977921902BEA00E8A48F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD40977821902BEA00E8A48F /* ViewController.m */; };
 		CD40977E2190347300E8A48F /* TOPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD40977D2190347300E8A48F /* TOPTabBarViewController.m */; };
 		CD40978421903AFA00E8A48F /* SXTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD40978321903AFA00E8A48F /* SXTTabBar.m */; };
+		CD92B4142194552C00B0EE0B /* SXTPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92B4132194552C00B0EE0B /* SXTPlayerViewController.m */; };
+		CD92B41621945A2200B0EE0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD92B41521945A2200B0EE0B /* CoreLocation.framework */; };
+		CD92B4192195112E00B0EE0B /* SXTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92B4182195112E00B0EE0B /* SXTMeViewController.m */; };
+		CD92B41C219511BB00B0EE0B /* SXTMeInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92B41B219511BB00B0EE0B /* SXTMeInfoView.m */; };
+		CD92B41E219511DE00B0EE0B /* SXTMeInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD92B41D219511DE00B0EE0B /* SXTMeInfoView.xib */; };
+		CD92B42321956EC600B0EE0B /* SXTSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92B42221956EC600B0EE0B /* SXTSetting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,9 +69,6 @@
 		CD16242321904EDC00E80B96 /* SXTMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTMainViewController.h; sourceTree = "<group>"; };
 		CD16242421904EDC00E80B96 /* SXTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTMainViewController.m; sourceTree = "<group>"; };
 		CD16242521904EDC00E80B96 /* SXTMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXTMainViewController.xib; sourceTree = "<group>"; };
-		CD16242821904EF000E80B96 /* SXTMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTMeViewController.h; sourceTree = "<group>"; };
-		CD16242921904EF000E80B96 /* SXTMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTMeViewController.m; sourceTree = "<group>"; };
-		CD16242A21904EF000E80B96 /* SXTMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXTMeViewController.xib; sourceTree = "<group>"; };
 		CD16242D21904FDE00E80B96 /* SXTBaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTBaseNavViewController.h; sourceTree = "<group>"; };
 		CD16242E21904FDE00E80B96 /* SXTBaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTBaseNavViewController.m; sourceTree = "<group>"; };
 		CD1624302190A00600E80B96 /* SXTLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTLaunchViewController.h; sourceTree = "<group>"; };
@@ -133,6 +134,16 @@
 		CD40977D2190347300E8A48F /* TOPTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOPTabBarViewController.m; sourceTree = "<group>"; };
 		CD40978221903AFA00E8A48F /* SXTTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTTabBar.h; sourceTree = "<group>"; };
 		CD40978321903AFA00E8A48F /* SXTTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTTabBar.m; sourceTree = "<group>"; };
+		CD92B4122194552C00B0EE0B /* SXTPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTPlayerViewController.h; sourceTree = "<group>"; };
+		CD92B4132194552C00B0EE0B /* SXTPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTPlayerViewController.m; sourceTree = "<group>"; };
+		CD92B41521945A2200B0EE0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CD92B4172195112E00B0EE0B /* SXTMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTMeViewController.h; sourceTree = "<group>"; };
+		CD92B4182195112E00B0EE0B /* SXTMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTMeViewController.m; sourceTree = "<group>"; };
+		CD92B41A219511BB00B0EE0B /* SXTMeInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTMeInfoView.h; sourceTree = "<group>"; };
+		CD92B41B219511BB00B0EE0B /* SXTMeInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTMeInfoView.m; sourceTree = "<group>"; };
+		CD92B41D219511DE00B0EE0B /* SXTMeInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXTMeInfoView.xib; sourceTree = "<group>"; };
+		CD92B42121956EC600B0EE0B /* SXTSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTSetting.h; sourceTree = "<group>"; };
+		CD92B42221956EC600B0EE0B /* SXTSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTSetting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD92B41621945A2200B0EE0B /* CoreLocation.framework in Frameworks */,
 				6A0BA6F5BD311AC1F6F7D671 /* libPods-inke.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +171,7 @@
 		293FB0548A6588D3C44E3EDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD92B41521945A2200B0EE0B /* CoreLocation.framework */,
 				3CC25D879FA9D05348A804EB /* libPods-inke.a */,
 			);
 			name = Frameworks;
@@ -443,6 +456,8 @@
 		CD226C6D218A083C001760F9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CD92B42121956EC600B0EE0B /* SXTSetting.h */,
+				CD92B42221956EC600B0EE0B /* SXTSetting.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -450,6 +465,9 @@
 		CD226C6E218A083C001760F9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD92B41A219511BB00B0EE0B /* SXTMeInfoView.h */,
+				CD92B41B219511BB00B0EE0B /* SXTMeInfoView.m */,
+				CD92B41D219511DE00B0EE0B /* SXTMeInfoView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -457,6 +475,8 @@
 		CD226C6F218A083C001760F9 /* ViewControol */ = {
 			isa = PBXGroup;
 			children = (
+				CD92B4172195112E00B0EE0B /* SXTMeViewController.h */,
+				CD92B4182195112E00B0EE0B /* SXTMeViewController.m */,
 			);
 			path = ViewControol;
 			sourceTree = "<group>";
@@ -535,9 +555,8 @@
 				CD16245E21911A0F00E80B96 /* SXTNearViewController.h */,
 				CD16245F21911A0F00E80B96 /* SXTNearViewController.m */,
 				CD16246021911A0F00E80B96 /* SXTNearViewController.xib */,
-				CD16242821904EF000E80B96 /* SXTMeViewController.h */,
-				CD16242921904EF000E80B96 /* SXTMeViewController.m */,
-				CD16242A21904EF000E80B96 /* SXTMeViewController.xib */,
+				CD92B4122194552C00B0EE0B /* SXTPlayerViewController.h */,
+				CD92B4132194552C00B0EE0B /* SXTPlayerViewController.m */,
 			);
 			path = ViewControol;
 			sourceTree = "<group>";
@@ -618,6 +637,7 @@
 				CD226C4D218A0532001760F9 /* Assets.xcassets in Resources */,
 				CD1624502190AC9200E80B96 /* global_tittle_bg@3x.png in Resources */,
 				CD1624492190AC9200E80B96 /* global_back@2x.png in Resources */,
+				CD92B41E219511DE00B0EE0B /* SXTMeInfoView.xib in Resources */,
 				CD162458219119D700E80B96 /* SXTFocuseViewController.xib in Resources */,
 				CD16244E2190AC9200E80B96 /* Contents.json in Resources */,
 				CD1624532190AC9200E80B96 /* title_button_more@3x.png in Resources */,
@@ -627,7 +647,6 @@
 				CD1624512190AC9200E80B96 /* Contents.json in Resources */,
 				CD226C4B218A052F001760F9 /* Main.storyboard in Resources */,
 				CD1624342190A00600E80B96 /* SXTLaunchViewController.xib in Resources */,
-				CD16242C21904EF000E80B96 /* SXTMeViewController.xib in Resources */,
 				CD16242721904EDC00E80B96 /* SXTMainViewController.xib in Resources */,
 				CD16244A2190AC9200E80B96 /* global_back@3x.png in Resources */,
 				CD16244B2190AC9200E80B96 /* Contents.json in Resources */,
@@ -663,8 +682,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1624802193F63000E80B96 /* MJExtenSionConfig.m in Sources */,
-				CD16242B21904EF000E80B96 /* SXTMeViewController.m in Sources */,
 				CD40977921902BEA00E8A48F /* ViewController.m in Sources */,
+				CD92B42321956EC600B0EE0B /* SXTSetting.m in Sources */,
+				CD92B4192195112E00B0EE0B /* SXTMeViewController.m in Sources */,
 				CD16246F2191BA0C00E80B96 /* UIImageView+SDWebImage.m in Sources */,
 				CD1624792192ED1A00E80B96 /* SXTLiveCell.m in Sources */,
 				CD16242221904E8600E80B96 /* SXTBaseViewController.m in Sources */,
@@ -685,6 +705,8 @@
 				CD162485219406B900E80B96 /* List.m in Sources */,
 				CD16246121911A0F00E80B96 /* SXTNearViewController.m in Sources */,
 				CD16246E2191BA0C00E80B96 /* HttpTool.m in Sources */,
+				CD92B41C219511BB00B0EE0B /* SXTMeInfoView.m in Sources */,
+				CD92B4142194552C00B0EE0B /* SXTPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

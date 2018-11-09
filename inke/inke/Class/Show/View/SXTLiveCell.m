@@ -23,8 +23,10 @@
     
     _live = live;
     
-    [self.headView downloadImage:@"mediumLogo" placeholder:@"mediumLogo"];
-    [self.bigImage downloadImage:@"mediumLogo" placeholder:@"mediumLogo"];
+    [self.headView downloadImage:[NSString stringWithFormat:@"%@",live.mediumLogo] placeholder:live.mediumLogo];
+    [self.bigImage downloadImage:[NSString stringWithFormat:@"%@",live.mediumLogo] placeholder:live.mediumLogo];
+    
+    
     self.myName.text = live.nickname;
     
     

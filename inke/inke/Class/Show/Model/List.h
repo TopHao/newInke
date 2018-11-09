@@ -7,4 +7,5 @@
 @property (nonatomic, strong) NSString * nickname;
 @property (nonatomic, strong) NSString * personDescribe;
 @property (nonatomic, assign) NSInteger uid;
+
 @end

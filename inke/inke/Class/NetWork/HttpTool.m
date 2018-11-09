@@ -67,8 +67,9 @@ static NSString * kBaseUrl = SERVER_HOST;
             success:(HttpSuccessBlock)success
             failure:(HttpFailureBlock)failure {
     //获取完整的url路径
-    NSString * url = [kBaseUrl stringByAppendingPathComponent:path];
-    
+//    NSString * url = [kBaseUrl stringByAppendingPathComponent:path];
+    NSString * url = path;
+
     [[AFHttpClient sharedClient] POST:url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         success(responseObject);
@@ -87,8 +88,9 @@ static NSString * kBaseUrl = SERVER_HOST;
                 progress:(HttpDownloadProgressBlock)progress {
     
     //获取完整的url路径
-    NSString * urlString = [kBaseUrl stringByAppendingPathComponent:path];
-    
+//    NSString * urlString = [kBaseUrl stringByAppendingPathComponent:path];
+    NSString * urlString = path;
+
     //下载
     NSURL *URL = [NSURL URLWithString:urlString];
     
@@ -129,8 +131,9 @@ static NSString * kBaseUrl = SERVER_HOST;
                    progress:(HttpUploadProgressBlock)progress {
     
     //获取完整的url路径
-    NSString * urlString = [kBaseUrl stringByAppendingPathComponent:path];
-    
+//    NSString * urlString = [kBaseUrl stringByAppendingPathComponent:path];
+    NSString * urlString = path;
+
     NSData * data = UIImagePNGRepresentation(image);
     
     [[AFHttpClient sharedClient] POST:urlString parameters:params constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {

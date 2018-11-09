@@ -22,13 +22,13 @@
    
     
     //下滑线
-    [List mj_setupReplacedKeyFromPropertyName121:^NSString *(NSString *propertyName) {
-        return [propertyName mj_underlineFromCamel];
-    }];
-    
-    [RootClass mj_setupReplacedKeyFromPropertyName121:^NSString *(NSString *propertyName) {
-        return [propertyName mj_underlineFromCamel];
-    }];
+//    [List mj_setupReplacedKeyFromPropertyName121:^NSString *(NSString *propertyName) {
+//        return [propertyName mj_underlineFromCamel];
+//    }];
+//    
+//    [RootClass mj_setupReplacedKeyFromPropertyName121:^NSString *(NSString *propertyName) {
+//        return [propertyName mj_underlineFromCamel];
+//    }];
 }
 
 @end

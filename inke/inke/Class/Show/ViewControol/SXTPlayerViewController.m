@@ -1,22 +1,23 @@
+
 //
-//  SXTMeViewController.m
+//  SXTPlayerViewController.m
 //  inke
 //
-//  Created by Code on 2018/11/5.
+//  Created by Code on 2018/11/8.
 //  Copyright © 2018年 top. All rights reserved.
 //
 
-#import "SXTMeViewController.h"
+#import "SXTPlayerViewController.h"
 
-@interface SXTMeViewController ()
+@interface SXTPlayerViewController ()
 
 @end
 
-@implementation SXTMeViewController
+@implementation SXTPlayerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
