@@ -9,8 +9,9 @@ target 'inke' do
 pod 'SDWebImage', '~> 3.8.1'
 pod 'AFNetworking', '~> 3.1.0'
 pod 'MJExtension'
-# pod 'LFLiveKit'
 pod 'YYKit'
 pod 'Masonry'
+pod 'LFLiveKit'
+
 
 end

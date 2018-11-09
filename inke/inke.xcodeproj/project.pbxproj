@@ -31,7 +31,6 @@
 		CD162458219119D700E80B96 /* SXTFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD162456219119D700E80B96 /* SXTFocuseViewController.xib */; };
 		CD16245C219119F000E80B96 /* SXTHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16245A219119F000E80B96 /* SXTHotViewController.m */; };
 		CD16246121911A0F00E80B96 /* SXTNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16245F21911A0F00E80B96 /* SXTNearViewController.m */; };
-		CD16246221911A0F00E80B96 /* SXTNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD16246021911A0F00E80B96 /* SXTNearViewController.xib */; };
 		CD1624652191347B00E80B96 /* SXTMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1624642191347B00E80B96 /* SXTMainTopView.m */; };
 		CD16246E2191BA0C00E80B96 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16246C2191BA0C00E80B96 /* HttpTool.m */; };
 		CD16246F2191BA0C00E80B96 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16246D2191BA0C00E80B96 /* UIImageView+SDWebImage.m */; };
@@ -58,6 +57,16 @@
 		CD92B41C219511BB00B0EE0B /* SXTMeInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92B41B219511BB00B0EE0B /* SXTMeInfoView.m */; };
 		CD92B41E219511DE00B0EE0B /* SXTMeInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD92B41D219511DE00B0EE0B /* SXTMeInfoView.xib */; };
 		CD92B42321956EC600B0EE0B /* SXTSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92B42221956EC600B0EE0B /* SXTSetting.m */; };
+		CDB004772195866D00A0D104 /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB004762195866D00A0D104 /* LFLivePreview.m */; };
+		CDB00482219591BE00A0D104 /* camra_beauty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB00479219591BE00A0D104 /* camra_beauty@2x.png */; };
+		CDB00483219591BE00A0D104 /* camra_beauty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB0047A219591BE00A0D104 /* camra_beauty@3x.png */; };
+		CDB00484219591BE00A0D104 /* camra_beauty_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB0047B219591BE00A0D104 /* camra_beauty_close@2x.png */; };
+		CDB00485219591BE00A0D104 /* camra_beauty_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB0047C219591BE00A0D104 /* camra_beauty_close@3x.png */; };
+		CDB00486219591BE00A0D104 /* camra_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB0047D219591BE00A0D104 /* camra_preview@2x.png */; };
+		CDB00487219591BE00A0D104 /* camra_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB0047E219591BE00A0D104 /* camra_preview@3x.png */; };
+		CDB00488219591BE00A0D104 /* close_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB0047F219591BE00A0D104 /* close_preview@2x.png */; };
+		CDB00489219591BE00A0D104 /* close_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB00480219591BE00A0D104 /* close_preview@3x.png */; };
+		CDB0048A219591BE00A0D104 /* ios-29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB00481219591BE00A0D104 /* ios-29x29.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,7 +103,6 @@
 		CD16245A219119F000E80B96 /* SXTHotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTHotViewController.m; sourceTree = "<group>"; };
 		CD16245E21911A0F00E80B96 /* SXTNearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTNearViewController.h; sourceTree = "<group>"; };
 		CD16245F21911A0F00E80B96 /* SXTNearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTNearViewController.m; sourceTree = "<group>"; };
-		CD16246021911A0F00E80B96 /* SXTNearViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXTNearViewController.xib; sourceTree = "<group>"; };
 		CD1624632191347B00E80B96 /* SXTMainTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTMainTopView.h; sourceTree = "<group>"; };
 		CD1624642191347B00E80B96 /* SXTMainTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTMainTopView.m; sourceTree = "<group>"; };
 		CD1624672191B8C300E80B96 /* APIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
@@ -125,7 +133,7 @@
 		CD226C52218A0532001760F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD226C71218A083C001760F9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD226C72218A083C001760F9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD226C7A218A0A8E001760F9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		CD226C7A218A0A8E001760F9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CD40977721902BEA00E8A48F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CD40977821902BEA00E8A48F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD40977A21902C5800E8A48F /* yingke.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yingke.pch; sourceTree = "<group>"; };
@@ -144,6 +152,17 @@
 		CD92B41D219511DE00B0EE0B /* SXTMeInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXTMeInfoView.xib; sourceTree = "<group>"; };
 		CD92B42121956EC600B0EE0B /* SXTSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXTSetting.h; sourceTree = "<group>"; };
 		CD92B42221956EC600B0EE0B /* SXTSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXTSetting.m; sourceTree = "<group>"; };
+		CDB004752195866C00A0D104 /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
+		CDB004762195866D00A0D104 /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
+		CDB00479219591BE00A0D104 /* camra_beauty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@2x.png"; sourceTree = "<group>"; };
+		CDB0047A219591BE00A0D104 /* camra_beauty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@3x.png"; sourceTree = "<group>"; };
+		CDB0047B219591BE00A0D104 /* camra_beauty_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@2x.png"; sourceTree = "<group>"; };
+		CDB0047C219591BE00A0D104 /* camra_beauty_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@3x.png"; sourceTree = "<group>"; };
+		CDB0047D219591BE00A0D104 /* camra_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@2x.png"; sourceTree = "<group>"; };
+		CDB0047E219591BE00A0D104 /* camra_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@3x.png"; sourceTree = "<group>"; };
+		CDB0047F219591BE00A0D104 /* close_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@2x.png"; sourceTree = "<group>"; };
+		CDB00480219591BE00A0D104 /* close_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@3x.png"; sourceTree = "<group>"; };
+		CDB00481219591BE00A0D104 /* ios-29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-29x29.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -382,6 +401,8 @@
 		CD226C64218A083C001760F9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CDB004752195866C00A0D104 /* LFLivePreview.h */,
+				CDB004762195866D00A0D104 /* LFLivePreview.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -399,6 +420,7 @@
 		CD226C66218A083C001760F9 /* Luanch */ = {
 			isa = PBXGroup;
 			children = (
+				CDB00478219591BE00A0D104 /* images */,
 				CD226C67218A083C001760F9 /* Handle */,
 				CD226C68218A083C001760F9 /* Model */,
 				CD226C69218A083C001760F9 /* View */,
@@ -554,7 +576,6 @@
 				CD16245A219119F000E80B96 /* SXTHotViewController.m */,
 				CD16245E21911A0F00E80B96 /* SXTNearViewController.h */,
 				CD16245F21911A0F00E80B96 /* SXTNearViewController.m */,
-				CD16246021911A0F00E80B96 /* SXTNearViewController.xib */,
 				CD92B4122194552C00B0EE0B /* SXTPlayerViewController.h */,
 				CD92B4132194552C00B0EE0B /* SXTPlayerViewController.m */,
 			);
@@ -566,6 +587,22 @@
 			children = (
 			);
 			path = "Supper File";
+			sourceTree = "<group>";
+		};
+		CDB00478219591BE00A0D104 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CDB00479219591BE00A0D104 /* camra_beauty@2x.png */,
+				CDB0047A219591BE00A0D104 /* camra_beauty@3x.png */,
+				CDB0047B219591BE00A0D104 /* camra_beauty_close@2x.png */,
+				CDB0047C219591BE00A0D104 /* camra_beauty_close@3x.png */,
+				CDB0047D219591BE00A0D104 /* camra_preview@2x.png */,
+				CDB0047E219591BE00A0D104 /* camra_preview@3x.png */,
+				CDB0047F219591BE00A0D104 /* close_preview@2x.png */,
+				CDB00480219591BE00A0D104 /* close_preview@3x.png */,
+				CDB00481219591BE00A0D104 /* ios-29x29.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -628,8 +665,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD16244D2190AC9200E80B96 /* global_search@3x.png in Resources */,
-				CD16246221911A0F00E80B96 /* SXTNearViewController.xib in Resources */,
+				CDB00485219591BE00A0D104 /* camra_beauty_close@3x.png in Resources */,
+				CDB0048A219591BE00A0D104 /* ios-29x29.png in Resources */,
+				CDB00482219591BE00A0D104 /* camra_beauty@2x.png in Resources */,
+				CDB00487219591BE00A0D104 /* camra_preview@3x.png in Resources */,
 				CD1624522190AC9200E80B96 /* title_button_more@2x.png in Resources */,
+				CDB00486219591BE00A0D104 /* camra_preview@2x.png in Resources */,
 				CD226C50218A0532001760F9 /* LaunchScreen.storyboard in Resources */,
 				CD16244F2190AC9200E80B96 /* global_tittle_bg@2x.png in Resources */,
 				CD16244C2190AC9200E80B96 /* global_search@2x.png in Resources */,
@@ -641,13 +682,17 @@
 				CD162458219119D700E80B96 /* SXTFocuseViewController.xib in Resources */,
 				CD16244E2190AC9200E80B96 /* Contents.json in Resources */,
 				CD1624532190AC9200E80B96 /* title_button_more@3x.png in Resources */,
+				CDB00483219591BE00A0D104 /* camra_beauty@3x.png in Resources */,
+				CDB00484219591BE00A0D104 /* camra_beauty_close@2x.png in Resources */,
 				CD1624482190AC9200E80B96 /* Contents.json in Resources */,
 				CD226C7B218A0A8F001760F9 /* Podfile in Resources */,
+				CDB00489219591BE00A0D104 /* close_preview@3x.png in Resources */,
 				CD1624472190AC9200E80B96 /* Contents.json in Resources */,
 				CD1624512190AC9200E80B96 /* Contents.json in Resources */,
 				CD226C4B218A052F001760F9 /* Main.storyboard in Resources */,
 				CD1624342190A00600E80B96 /* SXTLaunchViewController.xib in Resources */,
 				CD16242721904EDC00E80B96 /* SXTMainViewController.xib in Resources */,
+				CDB00488219591BE00A0D104 /* close_preview@2x.png in Resources */,
 				CD16244A2190AC9200E80B96 /* global_back@3x.png in Resources */,
 				CD16244B2190AC9200E80B96 /* Contents.json in Resources */,
 			);
@@ -705,6 +750,7 @@
 				CD162485219406B900E80B96 /* List.m in Sources */,
 				CD16246121911A0F00E80B96 /* SXTNearViewController.m in Sources */,
 				CD16246E2191BA0C00E80B96 /* HttpTool.m in Sources */,
+				CDB004772195866D00A0D104 /* LFLivePreview.m in Sources */,
 				CD92B41C219511BB00B0EE0B /* SXTMeInfoView.m in Sources */,
 				CD92B4142194552C00B0EE0B /* SXTPlayerViewController.m in Sources */,
 			);
@@ -855,7 +901,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/inke/Class/Other/yingke.pch";
 				INFOPLIST_FILE = inke/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -879,7 +925,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/inke/Class/Other/yingke.pch";
 				INFOPLIST_FILE = inke/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -10,5 +10,6 @@
 
 @interface SXTLaunchViewController : SXTBaseViewController
 - (IBAction)back:(id)sender;
+- (IBAction)startLive:(id)sender;
 
 @end

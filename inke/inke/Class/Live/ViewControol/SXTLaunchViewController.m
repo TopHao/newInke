@@ -7,6 +7,7 @@
 //
 
 #import "SXTLaunchViewController.h"
+#import "LFLivePreview.h"
 
 @interface SXTLaunchViewController ()
 
@@ -36,5 +37,16 @@
 
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)startLive:(id)sender {
+    
+    LFLivePreview * liveView = [[LFLivePreview alloc] initWithFrame:self.view.bounds];
+    
+    liveView.vc = self;
+    
+    [self.view addSubview:liveView];
+    [liveView startLive];
+    
 }
 @end
